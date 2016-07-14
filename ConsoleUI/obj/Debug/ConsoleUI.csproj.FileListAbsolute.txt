@@ -1,8 +1,0 @@
-D:\Training EPAM Nastya\Tasks\Day7\ConsoleUI\bin\Debug\ConsoleUI.exe.config
-D:\Training EPAM Nastya\Tasks\Day7\ConsoleUI\bin\Debug\ConsoleUI.exe
-D:\Training EPAM Nastya\Tasks\Day7\ConsoleUI\bin\Debug\ConsoleUI.pdb
-D:\Training EPAM Nastya\Tasks\Day7\ConsoleUI\bin\Debug\Task1Logic.dll
-D:\Training EPAM Nastya\Tasks\Day7\ConsoleUI\bin\Debug\Task1Logic.pdb
-D:\Training EPAM Nastya\Tasks\Day7\ConsoleUI\obj\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
-D:\Training EPAM Nastya\Tasks\Day7\ConsoleUI\obj\Debug\ConsoleUI.exe
-D:\Training EPAM Nastya\Tasks\Day7\ConsoleUI\obj\Debug\ConsoleUI.pdb
