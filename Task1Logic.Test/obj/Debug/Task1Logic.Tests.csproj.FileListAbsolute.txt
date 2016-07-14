@@ -7,3 +7,12 @@ D:\NastyaTraining\Day7\Task1Logic.Test\bin\Debug\nunit.framework.xml
 D:\NastyaTraining\Day7\Task1Logic.Test\obj\Debug\Task1Logic.Tests.csprojResolveAssemblyReference.cache
 D:\NastyaTraining\Day7\Task1Logic.Test\obj\Debug\Task1Logic.Test.dll
 D:\NastyaTraining\Day7\Task1Logic.Test\obj\Debug\Task1Logic.Test.pdb
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\bin\Debug\Task1Logic.Test.dll
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\bin\Debug\Task1Logic.Test.pdb
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\bin\Debug\nunit.framework.dll
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\bin\Debug\Task1Logic.dll
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\bin\Debug\Task1Logic.pdb
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\bin\Debug\nunit.framework.xml
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\obj\Debug\Task1Logic.Tests.csprojResolveAssemblyReference.cache
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\obj\Debug\Task1Logic.Test.dll
+D:\Training EPAM Nastya\Tasks\Day7\Task1Logic.Test\obj\Debug\Task1Logic.Test.pdb

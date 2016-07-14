@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Task1Logic
+namespace Task1Logic.Tests.Comparers
 {
   /// <summary>
   /// class implementes sorting by Decrease Sum Of Line Items of jagged array

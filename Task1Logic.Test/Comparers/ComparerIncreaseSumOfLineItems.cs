@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Task1Logic
+namespace Task1Logic.Tests.Comparers
 {
   /// <summary>
   /// class implementes sorting by Increase Sum of Line Items of jagged array
@@ -17,7 +17,7 @@ namespace Task1Logic
         return 1;
       }
 
-      if(sumRhs > sumLhs)
+      if (sumRhs > sumLhs)
       {
         return -1;
       }

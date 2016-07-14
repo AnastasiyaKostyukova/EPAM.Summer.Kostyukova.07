@@ -2,15 +2,20 @@
 
 namespace Task1Logic
 {
+  /// <summary>
+  /// class have 2 overloaded methods Sort
+  /// </summary>
   public class Sorter
   {
     /// <summary>
-    /// class Sorter have one public method Sort and private method-helper Swap
+    /// delegate
     /// </summary>
-    /// <param name="array">jagged unsorted array</param>
-    /// <param name="comparer">interface reference</param>
+    /// <param name="a">the first input parameter int[] array</param>
+    /// <param name="b">the second input parameter int[] array</param>
     /// <returns></returns>
-    public static int[][] Sort (int[][] array, IArrayComparer comparer)
+    public delegate int ComparerDelegate(int[] a, int[] b);
+
+    public static int[][] Sort(int[][] array, ComparerDelegate comparerDelegate)
     {
       if (array.Length == 1 || array.Length == 1)
       {
@@ -21,7 +26,7 @@ namespace Task1Logic
       {
         for (int i = 0; i < n; i++)
         {
-          var compareResult = comparer.Compare(array[i], array[i + 1]);
+          var compareResult = comparerDelegate(array[i], array[i + 1]);
 
           if (compareResult > 0)
           {
@@ -33,11 +38,25 @@ namespace Task1Logic
       return array;
     }
 
+
+    /// <summary>
+    /// method Sort sorts jagged array
+    /// </summary>
+    /// <param name="array">jagged unsorted array</param>
+    /// <param name="comparer">interface reference</param>
+    /// <returns>sorted array</returns>
+    public static int[][] Sort (int[][] array, IArrayComparer comparer)
+    {
+      return Sort(array, new ComparerDelegate(comparer.Compare));      
+    }
+
     private static void Swap(ref int[] lhs, ref int[] rhs)
     {
       int[] glass = lhs;
       lhs = rhs;
       rhs = glass;
     }
+
+
   }
 }

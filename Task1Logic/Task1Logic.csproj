@@ -40,10 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ComparerByDecreaseMaxAbsItemOfLine.cs" />
-    <Compile Include="ComparerByDecreaseSumOfLineItems.cs" />
-    <Compile Include="ComparerByIncreaseSumOfLineItems.cs" />
-    <Compile Include="ComparerByIncreaseMaxAbsItemOfLine.cs" />
     <Compile Include="IArrayComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorter.cs" />

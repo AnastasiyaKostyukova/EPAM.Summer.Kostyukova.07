@@ -1,6 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
 using System.Collections;
+using Task1Logic.Tests.Comparers;
+
 namespace Task1Logic.Tests
 {
   public class SorterTests
